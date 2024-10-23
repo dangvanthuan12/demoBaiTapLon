@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai Thi</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px auto;
+    }
+    .wrapper{
+        width:960px;
+        background-color: white;
+    }
+    header{
+        width: 100%;
+        background-color:white;
+        height: 50px;
+        position: relative;
+    }
+    nav{
+        position: absolute;
+        bottom: 0px;
+        right: 50px;
+        background-color: white;
+    }
+    .menu li{
+        background-color: white;
+        display: inline-table;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 50px;
+        height: 50px;
+    }
+    .menu li a{
+        color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-weight: bolder;
+    }
+    .menu li:hover{
+        background-color: white;
+    }
+    .menu li:hover>a{
+        color: yellow;
+        font-style: italic;
+    }
+    .menu button:hover{
+        color: yellow;
+        font-style: italic;
+    }
+    .content{
+        width: 100%;
+        height: 400px;
+        background-color: white;
+    }
+    section{
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        float: left;
+    }
+    section img{
+        position: absolute;
+        top: 150px;
+        left: 450px;
+    }
+    section p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: black;
+        position: absolute;
+        top: 200px;
+        left: 450px;
+    }
+    aside{
+        width: 50%;
+        height: 100%;
+        background-color: white;
+        float: left;
+    }
+    aside img{
+        position: absolute;
+        top: 150px;
+        right: 600px;
+    }
+    aside p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: black;
+        position: absolute;
+        top: 200px;
+        left: 880px;
+    }
+    footer{
+        background-color: #efefef;
+        position: relative;
+        top: -80px;
+        left: 10px;
+        width: 90%;
+        height: 80px;
+    }
+    footer p{
+        position: absolute;
+        top: 20px;
+        left: 250px;
+    }
+    footer span{
+        position: absolute;
+        top: 40px;
+        left: 300px;
+    }
+    article{
+        background-color: #f9f9f9;;
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: -100px;
+    }
+    article h3{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    article p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: black;
+    }
+    .cot1{
+        position: absolute;
+        left: 50px;
+        line-height: 30px;
+    }
+    .cot2{
+        position: absolute;
+        left: 350px;
+        line-height: 30px;
+    }
+    .cot3{
+        position: absolute;
+        left: 500px;
+        line-height: 30px;
+    }
+    .cot4{
+        position: absolute;
+        left: 650px;
+        line-height: 30px;
+    }
+
+</style>
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="/IMG/hinh 3.PNG" alt="" srcset="" width="120" height="90">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" style="color: green;">About</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Trainers</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><button type="button" style="border-radius: 30%;background-color: green; width: 100px;">Get Started</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <section>
+                <img src="/IMG/1.PNG" alt="Hinh1" srcset=""> <br><br>
+                <p><i>Export tempor illum molls moils eram que lrue esse <br> labore quem cilum quid erom moils quorum veli fore eram <br> velit sunt oliquo noster fugiot lure ornet legom onim culpa.</i></p>
+            </section>
+            <aside>
+                <img src="/IMG/2.PNG" alt="Hinh2" srcset=""> <br><br>
+                <p><i>Erim toienf ilsint quorum moils eram que lrue esse <br> labore quem cilum quid erom moils quorum venoster aute <br> eram fore quis sint minim fore eram velit sunt oliquo noster. <br></i></p>
+            </aside>
+        </div>
+        <article>
+            <br>
+            <div class="cot1">
+                <h3>HOME</h3>
+                <p>Add: Adam Street <br> New York, NY S35022</p><BR>
+                <P><B>Phone:</B> 09653725</P>
+                <P><B>Email:</B> info@example.com</P>
+
+            </div>
+            <div class="cot2">
+                <h3>Useful Links</h3>
+                <p>Home</p>
+                <p>About Us</p>
+                <p>Services</p>
+                <p>Term of service</p>
+                <p>Privacy policy</p>
+            </div>
+            <div class="cot3">
+                <h3>Our Services</h3>
+                <p>Web Design</p>
+                <p>Web Development</p>
+                <p>Product Management</p>
+                <p>Marketing</p>
+                <p>Graphic Design</p>
+            </div>
+            <div class="cot4">
+                <h3>Our Newsletter</h3>
+                <p>Subscribe so our newsletter and receive the lastest news about our products and Services</p>
+                <form action="" method="post" id="frm1">
+                    <input type="text" name="" id="">
+                    <button type="submit" style="background-color: #00d185;">Subscribe</button>
+                </form>
+            </div>
+        </article>
+        <footer>
+            <p>@ Copyright HOME All Rights Reserved</p><br><br><br>
+            <span>Designed by <span2 style="color: green;">Soueyche</span></span>
+        </footer>
+    </div>
+</body>
+</html>
